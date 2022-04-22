@@ -45,7 +45,7 @@ void act1()
        while(p_r+1 != 8 || p_l+1 != 10)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl; 
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl; 
               map0101[p_r][p_l] = '*';
               for(int i = 1; i <= 8; ++i)
               {
@@ -80,7 +80,7 @@ void act1()
               else if(choice == 27) return act1();
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý1-1¹Ø" << endl;
+       cout << "æ­å–œé€šè¿‡1-1å…³" << endl;
        cout << endl << endl;
        Sleep(2000);
        p_r = 2;
@@ -88,7 +88,7 @@ void act1()
        while(p_r != 2 || p_l != 9)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl; 
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl; 
               map0102[p_r][p_l] = '*';
               for(int i = 1; i <= 10; ++i)
               {
@@ -123,7 +123,7 @@ void act1()
               else if(choice == 27) return act1();
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý1-2¹Ø" << endl;
+       cout << "æ­å–œé€šè¿‡1-2å…³" << endl;
        cout << endl << endl;
        Sleep(2000);
        p_r = 2;
@@ -131,7 +131,7 @@ void act1()
        while(p_r != 9 || p_l != 2)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl; 
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl; 
               map0103[p_r][p_l] = '*';
               for(int i = 1; i <= 10; ++i)
               {
@@ -166,7 +166,7 @@ void act1()
               else if(choice == 27) return act1();
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý1-3¹Ø£¬½øÈëWorld2" << endl;
+       cout << "æ­å–œé€šè¿‡1-3å…³ï¼Œè¿›å…¥World2" << endl;
        cout << endl << endl;
        Sleep(2000);
 }
@@ -244,7 +244,7 @@ void act2()
        while(p_r+1 != 10 || p_l+1 != 10)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl; 
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl; 
               map0201[p_r][p_l] = '*';
               for(int i = 1; i <= 10; ++i)
               {
@@ -279,7 +279,7 @@ void act2()
               else if(choice == 27) return act2();
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý2-1¹Ø" << endl;
+       cout << "æ­å–œé€šè¿‡2-1å…³" << endl;
        cout << endl << endl;
        Sleep(2000);
        p_r = 2;
@@ -287,7 +287,7 @@ void act2()
        while(p_r != 9 || p_l != 9)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
               map0202[p_r][p_l] = '*'; 
               for(int i = 1; i <= 10; ++i)
               {
@@ -322,7 +322,7 @@ void act2()
               else if(choice == 27) return act2();
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý2-2¹Ø" << endl;
+       cout << "æ­å–œé€šè¿‡2-2å…³" << endl;
        cout << endl << endl;
        Sleep(2000);
        p_r = 2;
@@ -330,7 +330,7 @@ void act2()
        while(p_r != 9 || p_l != 9)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
               map0203[p_r][p_l] = '*'; 
               for(int i = 1; i <= 10; ++i)
               {
@@ -365,7 +365,7 @@ void act2()
               else if(choice == 27) return act2();
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý2-3¹Ø£¬½øÈëWorld3" << endl;
+       cout << "æ­å–œé€šè¿‡2-3å…³ï¼Œè¿›å…¥World3" << endl;
        cout << endl << endl;
        Sleep(2000);
 }
@@ -431,7 +431,7 @@ void act3()
        while(p_r+1 != 10 || p_l+1 != 10)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
               map0301[p_r][p_l] = '*';
               for(int i = 1; i <= 10; ++i)
               {
@@ -466,7 +466,7 @@ void act3()
               else if(choice == 27) return act3();
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý3-1¹Ø" << endl;
+       cout << "æ­å–œé€šè¿‡3-1å…³" << endl;
        cout << endl << endl;
        Sleep(2000);
        p_r = 2;
@@ -474,7 +474,7 @@ void act3()
        while(p_r != 9 || p_l != 9)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
               map0302[p_r][p_l] = '*';
               for(int i = 1; i <= 10; ++i)
               {
@@ -509,7 +509,7 @@ void act3()
               else if(choice == 27) return act3();
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý3-2¹Ø" << endl;
+       cout << "æ­å–œé€šè¿‡3-2å…³" << endl;
        cout << endl << endl;
        Sleep(2000);
        p_r = 2;
@@ -517,7 +517,7 @@ void act3()
        while(p_r != 9 || p_l != 9)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
               map0303[p_r][p_l] = '*';
               for(int i = 1; i <= 10; ++i)
               {
@@ -552,7 +552,7 @@ void act3()
               else if(choice == 27) return act3();
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý3-3¹Ø£¬½øÈëWorld4" << endl;
+       cout << "æ­å–œé€šè¿‡3-3å…³ï¼Œè¿›å…¥World4" << endl;
        cout << endl << endl;
        Sleep(2000);
 }
@@ -603,8 +603,8 @@ void act4()
        while(p_r+1 != 9 || p_l+1 != 9)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
-              cout << "Õ¨µ¯Êý£º" << bomb << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
+              cout << "ç‚¸å¼¹æ•°ï¼š" << bomb << endl;
               map0401[p_r][p_l] = '*';
               for(int i = 0; i < 10; ++i)
               {
@@ -683,7 +683,7 @@ void act4()
               else if(choice == 27) return act4();
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý4-1¹Ø" << endl;
+       cout << "æ­å–œé€šè¿‡4-1å…³" << endl;
        cout << endl << endl;
        Sleep(2000);
        bomb = 0;
@@ -692,8 +692,8 @@ void act4()
        while(p_r != 8 || p_l != 8)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
-              cout << "Õ¨µ¯Êý£º" << bomb << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
+              cout << "ç‚¸å¼¹æ•°ï¼š" << bomb << endl;
               map0402[p_r][p_l] = '*';
               for(int i = 0; i < 10; ++i)
               {
@@ -772,7 +772,7 @@ void act4()
               else if(choice == 27) return act4();
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý4-2¹Ø" << endl;
+       cout << "æ­å–œé€šè¿‡4-2å…³" << endl;
        cout << endl << endl;
        Sleep(2000);
        bomb = 0;
@@ -781,8 +781,8 @@ void act4()
        while(p_r != 8 || p_l != 8)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
-              cout << "Õ¨µ¯Êý£º" << bomb << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
+              cout << "ç‚¸å¼¹æ•°ï¼š" << bomb << endl;
               map0403[p_r][p_l] = '*';
               for(int i = 0; i < 10; ++i)
               {
@@ -861,7 +861,7 @@ void act4()
               else if(choice == 27) return act4();
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý4-3¹Ø£¬½øÈëWorld5" << endl;
+       cout << "æ­å–œé€šè¿‡4-3å…³ï¼Œè¿›å…¥World5" << endl;
        cout << endl << endl;
        Sleep(2000);
 }
@@ -912,8 +912,8 @@ void act5()
        while(p_r != 8 || p_l != 8)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
-              cout << "Õ¨µ¯Êý£º" << bomb << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
+              cout << "ç‚¸å¼¹æ•°ï¼š" << bomb << endl;
               map0501[p_r][p_l] = '*';
               for(int i = 0; i < 10; ++i)
               {
@@ -992,7 +992,7 @@ void act5()
               else if(choice == 27) return act5();
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý5-1¹Ø" << endl;
+       cout << "æ­å–œé€šè¿‡5-1å…³" << endl;
        cout << endl << endl;
        Sleep(2000);
        bomb = 0;
@@ -1001,8 +1001,8 @@ void act5()
        while(p_r != 8 || p_l != 8)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
-              cout << "Õ¨µ¯Êý£º" << bomb << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
+              cout << "ç‚¸å¼¹æ•°ï¼š" << bomb << endl;
               map0502[p_r][p_l] = '*';
               for(int i = 0; i < 10; ++i)
               {
@@ -1081,7 +1081,7 @@ void act5()
               else if(choice == 27) return act5();
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý5-2¹Ø" << endl;
+       cout << "æ­å–œé€šè¿‡5-2å…³" << endl;
        cout << endl << endl;
        Sleep(2000);
        bomb = 0;
@@ -1090,8 +1090,8 @@ void act5()
        while(p_r != 8 || p_l != 8)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
-              cout << "Õ¨µ¯Êý£º" << bomb << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
+              cout << "ç‚¸å¼¹æ•°ï¼š" << bomb << endl;
               map0503[p_r][p_l] = '*';
               for(int i = 0; i < 10; ++i)
               {
@@ -1170,7 +1170,7 @@ void act5()
               else if(choice == 27) return act5();
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý5-3¹Ø£¬½øÈëWorld6" << endl;
+       cout << "æ­å–œé€šè¿‡5-3å…³ï¼Œè¿›å…¥World6" << endl;
        cout << endl << endl;
        Sleep(2000);
 }
@@ -1236,8 +1236,8 @@ void act6()
        while(p_r != 13 || p_l != 13)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
-              cout << "Õ¨µ¯Êý£º" << bomb << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
+              cout << "ç‚¸å¼¹æ•°ï¼š" << bomb << endl;
               map0601[p_r][p_l] = '*';
               for(int i = 0; i < 15; ++i)
               {
@@ -1319,7 +1319,7 @@ void act6()
               }
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý6-1¹Ø" << endl;
+       cout << "æ­å–œé€šè¿‡6-1å…³" << endl;
        cout << endl << endl;
        Sleep(2000);
        bomb = 0;
@@ -1328,8 +1328,8 @@ void act6()
        while(p_r != 13 || p_l != 13)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
-              cout << "Õ¨µ¯Êý£º" << bomb << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
+              cout << "ç‚¸å¼¹æ•°ï¼š" << bomb << endl;
               map0602[p_r][p_l] = '*';
               for(int i = 0; i < 15; ++i)
               {
@@ -1411,7 +1411,7 @@ void act6()
               }
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý6-2¹Ø" << endl;
+       cout << "æ­å–œé€šè¿‡6-2å…³" << endl;
        cout << endl << endl;
        Sleep(2000);
        bomb = 0;
@@ -1420,8 +1420,8 @@ void act6()
        while(p_r != 13 || p_l != 13)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
-              cout << "Õ¨µ¯Êý£º" << bomb << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
+              cout << "ç‚¸å¼¹æ•°ï¼š" << bomb << endl;
               map0603[p_r][p_l] = '*';
               for(int i = 0; i < 15; ++i)
               {
@@ -1503,7 +1503,7 @@ void act6()
               }
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý6-3¹Ø£¬½øÈëWorld7" << endl;
+       cout << "æ­å–œé€šè¿‡6-3å…³ï¼Œè¿›å…¥World7" << endl;
        cout << endl << endl;
        Sleep(2000);
 }
@@ -1569,8 +1569,8 @@ void act7()
        while(p_r != 13 || p_l != 13)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
-              cout << "Õ¨µ¯Êý£º" << bomb << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
+              cout << "ç‚¸å¼¹æ•°ï¼š" << bomb << endl;
               map0701[p_r][p_l] = '*';
               for(int i = 0; i < 15; ++i)
               {
@@ -1652,7 +1652,7 @@ void act7()
               }
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý7-1¹Ø" << endl;
+       cout << "æ­å–œé€šè¿‡7-1å…³" << endl;
        cout << endl << endl;
        Sleep(2000);
        bomb = 0;
@@ -1661,8 +1661,8 @@ void act7()
        while(p_r != 13 || p_l != 13)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
-              cout << "Õ¨µ¯Êý£º" << bomb << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
+              cout << "ç‚¸å¼¹æ•°ï¼š" << bomb << endl;
               map0702[p_r][p_l] = '*';
               for(int i = 0; i < 15; ++i)
               {
@@ -1744,7 +1744,7 @@ void act7()
               }
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý7-2¹Ø" << endl;
+       cout << "æ­å–œé€šè¿‡7-2å…³" << endl;
        cout << endl << endl;
        Sleep(2000);
        bomb = 0;
@@ -1753,8 +1753,8 @@ void act7()
        while(p_r != 1 || p_l != 13)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
-              cout << "Õ¨µ¯Êý£º" << bomb << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
+              cout << "ç‚¸å¼¹æ•°ï¼š" << bomb << endl;
               map0703[p_r][p_l] = '*';
               for(int i = 0; i < 15; ++i)
               {
@@ -1836,7 +1836,7 @@ void act7()
               }
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý7-3¹Ø£¬½øÈëWorld8" << endl;
+       cout << "æ­å–œé€šè¿‡7-3å…³ï¼Œè¿›å…¥World8" << endl;
        cout << endl << endl;
        Sleep(2000);
 }
@@ -1917,8 +1917,8 @@ void act8()
        while(p_r != 18 || p_l != 18)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
-              cout << "Õ¨µ¯Êý£º" << bomb << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
+              cout << "ç‚¸å¼¹æ•°ï¼š" << bomb << endl;
               map0801[p_r][p_l] = '*';
               for(int i = 0; i < 20; ++i)
               {
@@ -2000,7 +2000,7 @@ void act8()
               }
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý8-1¹Ø" << endl;
+       cout << "æ­å–œé€šè¿‡8-1å…³" << endl;
        cout << endl << endl;
        Sleep(2000);
        bomb = 0;
@@ -2009,8 +2009,8 @@ void act8()
        while(p_r != 18 || p_l != 18)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
-              cout << "Õ¨µ¯Êý£º" << bomb << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
+              cout << "ç‚¸å¼¹æ•°ï¼š" << bomb << endl;
               map0802[p_r][p_l] = '*';
               for(int i = 0; i < 20; ++i)
               {
@@ -2092,7 +2092,7 @@ void act8()
               }
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý8-2¹Ø" << endl;
+       cout << "æ­å–œé€šè¿‡8-2å…³" << endl;
        cout << endl << endl;
        Sleep(2000);
        bomb = 0;
@@ -2101,8 +2101,8 @@ void act8()
        while(p_r != 14 || p_l != 4)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
-              cout << "Õ¨µ¯Êý£º" << bomb << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
+              cout << "ç‚¸å¼¹æ•°ï¼š" << bomb << endl;
               map0803[p_r][p_l] = '*';
               for(int i = 0; i < 20; ++i)
               {
@@ -2184,7 +2184,7 @@ void act8()
               }
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý8-3¹Ø£¬½øÈëWorld9" << endl;
+       cout << "æ­å–œé€šè¿‡8-3å…³ï¼Œè¿›å…¥World9" << endl;
        cout << endl << endl;
        Sleep(2000);
 }
@@ -2265,8 +2265,8 @@ void act9()
        while(p_r != 18 || p_l != 18)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
-              cout << "Õ¨µ¯Êý£º" << bomb << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
+              cout << "ç‚¸å¼¹æ•°ï¼š" << bomb << endl;
               map0901[p_r][p_l] = '*';
               for(int i = 0; i < 20; ++i)
               {
@@ -2348,7 +2348,7 @@ void act9()
               }
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý9-1¹Ø" << endl;
+       cout << "æ­å–œé€šè¿‡9-1å…³" << endl;
        cout << endl << endl;
        Sleep(2000);
        bomb = 0;
@@ -2357,8 +2357,8 @@ void act9()
        while(p_r != 18 || p_l != 18)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
-              cout << "Õ¨µ¯Êý£º" << bomb << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
+              cout << "ç‚¸å¼¹æ•°ï¼š" << bomb << endl;
               map0902[p_r][p_l] = '*';
               for(int i = 0; i < 20; ++i)
               {
@@ -2440,7 +2440,7 @@ void act9()
               }
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý9-2¹Ø" << endl;
+       cout << "æ­å–œé€šè¿‡9-2å…³" << endl;
        cout << endl << endl;
        Sleep(2000);
        bomb = 0;
@@ -2449,8 +2449,8 @@ void act9()
        while(p_r != 10 || p_l != 9)
        {
               system("cls");
-              cout << "ÄãµÄÎ»ÖÃ£º" << p_r << "ÐÐ" << p_l << "ÁÐ" << endl;
-              cout << "Õ¨µ¯Êý£º" << bomb << endl;
+              cout << "ä½ çš„ä½ç½®ï¼š" << p_r << "è¡Œ" << p_l << "åˆ—" << endl;
+              cout << "ç‚¸å¼¹æ•°ï¼š" << bomb << endl;
               map0903[p_r][p_l] = '*';
               for(int i = 0; i < 20; ++i)
               {
@@ -2532,7 +2532,7 @@ void act9()
               }
               else continue;
        }
-       cout << "¹§Ï²Í¨¹ý9-3¹Ø£¬½øÈë...µÈµÈ£¬ÄãÒÑ¾­Í¨¹ØÁË£¡" << endl;
+       cout << "æ­å–œé€šè¿‡9-3å…³ï¼Œè¿›å…¥...ç­‰ç­‰ï¼Œä½ å·²ç»é€šå…³äº†ï¼" << endl;
        cout << endl << endl;
        Sleep(2000);
 }
