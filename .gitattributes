@@ -1,2 +1,2 @@
-*.dev linguist-language=cpp
-*.cpp linguist-language=cpp
+*.dev Linguist-language=cpp
+*.cpp Linguist-language=cpp
