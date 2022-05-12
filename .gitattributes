@@ -1,2 +1,2 @@
-*.cpp lingulist-language=C++
-*.dev lingulist-language=C++
+*.cpp lingulist-language=c++
+*.dev lingulist-language=c++
